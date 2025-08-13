@@ -110,8 +110,14 @@ const HeroSection = ({ data }) => {
 };
 
 const FeatureSection = ({ data, reverse = false }) => {
+  const sectionId = data?.id === 'services' ? 'services' : 
+                   data?.id === 'users' ? 'users' : 
+                   data?.id === 'capabilities' ? 'capabilities' : 
+                   data?.id === 'differentiators' ? 'differentiators' :
+                   data?.id === 'features' ? 'features' : '';
+                   
   return (
-    <section className="py-20 bg-gray-900">
+    <section id={sectionId} className="py-20 bg-gray-900">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className={`grid lg:grid-cols-2 gap-12 items-center ${reverse ? 'lg:grid-flow-col-dense' : ''}`}>
           <div className={reverse ? 'lg:col-start-2' : ''}>
