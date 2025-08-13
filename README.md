@@ -1,4 +1,4 @@
-# Emergent Labs Portfolio Website
+# Emergent Labs Website
 
 A professional portfolio website showcasing Emergent Labs' AI-powered application development platform. Built with React frontend, FastAPI backend, and MongoDB database.
 
