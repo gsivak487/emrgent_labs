@@ -138,7 +138,7 @@ PORTFOLIO_DATA = {
 # Add your routes to the router instead of directly to app
 @api_router.get("/")
 async def root():
-    return {"message": "Emergent Labs Portfolio API"}
+    return {"message": "Emergent Labs API"}
 
 @api_router.get("/portfolio", response_model=Dict[str, PortfolioSection])
 async def get_portfolio_data():
