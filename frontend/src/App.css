@@ -17,6 +17,28 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #111827;
   color: #ffffff;
+  overflow-x: hidden;
+}
+
+/* Ensure all text is visible */
+h1, h2, h3, h4, h5, h6, p, span, div {
+  color: inherit;
+}
+
+/* Section visibility */
+section {
+  position: relative;
+  z-index: 1;
+}
+
+/* Loading state */
+.loading-container {
+  background-color: #111827;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
 }
 
 .App {
