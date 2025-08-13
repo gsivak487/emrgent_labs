@@ -144,7 +144,7 @@ async def root():
 async def get_portfolio_data():
     return PORTFOLIO_DATA
 
-@api_router.get("/portfolio/{section_id}", response_model=PortfolioSection)
+@api_router.get("/portfolio/{section_id}")
 async def get_portfolio_section(section_id: str):
     if section_id in PORTFOLIO_DATA:
         return PORTFOLIO_DATA[section_id]
