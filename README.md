@@ -320,7 +320,7 @@ If you encounter issues:
 
 ## 📄 License
 
-This project is part of the Emergent Labs portfolio and showcases the company's AI-powered development capabilities.
+This project is part of Emergent Labs and showcases the company's AI-powered development capabilities.
 
 ---
 
