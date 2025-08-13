@@ -332,7 +332,7 @@ const Portfolio = () => {
   if (loading) {
     return (
       <div className="loading-container">
-        <div className="text-white text-xl">Loading Emergent Labs Portfolio...</div>
+        <div className="text-white text-xl">Loading Emergent Labs...</div>
       </div>
     );
   }
