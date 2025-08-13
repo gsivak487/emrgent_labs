@@ -200,7 +200,7 @@ class EmergentLabsAPITester:
         return success and success2
 
 def main():
-    print("🚀 Starting Emergent Labs Portfolio API Tests")
+    print("🚀 Starting Emergent Labs API Tests")
     print("=" * 60)
     
     # Initialize tester
