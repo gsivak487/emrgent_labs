@@ -128,7 +128,7 @@ The frontend will be available at: `http://localhost:3000`
 ## 📁 Project Structure
 
 ```
-emergent-labs-portfolio/
+emergent-labs/
 ├── backend/                    # FastAPI backend
 │   ├── server.py              # Main FastAPI application
 │   ├── requirements.txt       # Python dependencies
