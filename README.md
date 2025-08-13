@@ -30,7 +30,7 @@ yarn --version    # Should be installed
 ### 1. Clone the Repository
 ```bash
 git clone <repository-url>
-cd emergent-labs-portfolio
+cd emergent-labs
 ```
 
 ### 2. Database Setup
