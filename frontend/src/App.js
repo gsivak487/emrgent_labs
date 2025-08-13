@@ -325,8 +325,16 @@ const Portfolio = () => {
 
   if (loading) {
     return (
-      <div className="min-h-screen bg-gray-900 flex items-center justify-center">
-        <div className="text-white text-xl">Loading...</div>
+      <div className="loading-container">
+        <div className="text-white text-xl">Loading Emergent Labs Portfolio...</div>
+      </div>
+    );
+  }
+
+  if (!portfolioData) {
+    return (
+      <div className="loading-container">
+        <div className="text-white text-xl">No portfolio data available</div>
       </div>
     );
   }
